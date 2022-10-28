@@ -1,18 +1,16 @@
 import React from "react";
+import Error404 from "../Error404";
 import Navbar from "../navbar";
-import Contacts from "../Contact";
 import Footer from "../Footer";
 
-const Contact = () => {
+const Error = () => {
   return (
     <>
       <Navbar />
-
-      <Contacts />
-
+      <Error404 />
       <Footer />
     </>
   );
 };
 
-export default Contact;
+export default Error;

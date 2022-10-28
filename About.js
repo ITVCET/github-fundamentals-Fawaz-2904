@@ -1,18 +1,18 @@
 import React from "react";
 import Navbar from "../navbar";
-import Contacts from "../Contact";
+import Aboutus from "../Aboutus";
 import Footer from "../Footer";
 
-const Contact = () => {
+const About = () => {
   return (
     <>
       <Navbar />
 
-      <Contacts />
+      <Aboutus />
 
       <Footer />
     </>
   );
 };
 
-export default Contact;
+export default About;

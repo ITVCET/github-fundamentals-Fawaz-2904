@@ -1,18 +1,18 @@
 import React from "react";
 import Navbar from "../navbar";
-import Contacts from "../Contact";
+import Services from "../Services";
 import Footer from "../Footer";
 
-const Contact = () => {
+const Service = () => {
   return (
     <>
       <Navbar />
 
-      <Contacts />
+      <Services />
 
       <Footer />
     </>
   );
 };
 
-export default Contact;
+export default Service;
